@@ -32,6 +32,8 @@ db = client.parse_hh_db
 db_vacancies = db.vacancies
 
 
+
+
 def hh_bs_parser(url, params, headers):
     vacancies_list = []
     response = requests.get(url=url, params=params, headers=headers)
